@@ -95,7 +95,7 @@ terraform workspace select prod && terraform destroy -auto-approve
 
 ## EC2 Details
 
-- **AMI**: `ami-0d76b909de1a0595d` (us-west-2)
+- **AMI**: `ami-08be4b1b8afa29958` (us-east-2)
 - **Instance Type**: `t3.micro`
 - **Root Volume**: 10 GB gp3
 - **Security Group**: Ports 22 (SSH) and 80 (HTTP) open inbound, all outbound allowed
