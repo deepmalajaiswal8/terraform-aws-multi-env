@@ -1,9 +1,9 @@
 resource "aws_s3_bucket" "this" {
   count  = var.bucket_count
-  bucket = "${var.env}-terra-workspace-bucket-${count.index + 1}"
+  bucket = "${var.env}-deep-free-devops-bootcamp-${count.index + 1}"
 
   tags = merge(var.common_tags, {
-    Name = "${var.env}-terra-workspace-bucket-${count.index + 1}"
+    Name = "${var.env}-deep-free-devops-bootcamp-${count.index + 1}"
   })
 }
 
